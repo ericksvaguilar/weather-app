@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@400;700&display=swap');
+
+/* || variables */
+:root {
+  --cultured: #eeeeeeff;
+  --onyx: #414141ff;
+  --dim-gray: #5d6063ff;
+  --united-nations-blue: #5995daff;
+}
+
+/* || reset */
+p {
+  margin: 0;
+}
+
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* || base styles */
+body {
+  background-color: var(--cultured);
+  color: var(--onyx);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+figcaption {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1em;
+}
+
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 1em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.376);
+}
+
+.city-form {
+  margin-bottom: 3em;
+}
+
+.city-form__label {
+  display: none;
+}
+
+.city-form__input {
+  font-size: 1.3em;
+  padding: .5em;
+  border-radius: 10px;
+  border: 1px solid rgb(32, 32, 32);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.376);
+  outline: none;
+  color: var(--onyx);
+  font-family: 'Merriweather', serif;
+}
+
+.weather-card_city {
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.376);
+}
+
+.weather-card {
+  border-radius: 15px;
+  background-color: var(--dim-gray);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.376);
+  color: white;
+}
+
+.weather-card_temperature {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.376);
+}
+
+.weather-card_figure {
+  display: inline-block;
+  text-align: center;
+}
+
+/* || small tablet styles */
+@media screen and (min-width: 620px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* || large tablets & laptop styles */
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 19px;
+  }
+}
+
+/* || desktop styles */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
