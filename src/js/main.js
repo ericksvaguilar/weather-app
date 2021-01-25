@@ -1,7 +1,7 @@
 const formElement = document.querySelector('[data-js="form"]')
 const weatherCard = document.querySelector('[data-js="weather-card"]')
 
-const endpoint = cityname => `http://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=aca1524dfb7f6fe280b35f0def53192d`;
+const endpoint = cityname => `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=aca1524dfb7f6fe280b35f0def53192d`;
 
 const getAPIData = async (cityname) => {
   try {
