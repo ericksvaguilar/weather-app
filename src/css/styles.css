@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: 'Raleway', sans-serif;
+  min-width: 320px;
 }
 
 figcaption {
@@ -68,6 +69,7 @@ figcaption {
   font-size: 1.7em;
   font-weight: 400;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.376);
+  padding: 0 2em;
 }
 
 .weather-card {
@@ -75,7 +77,6 @@ figcaption {
   background-color: var(--dim-gray);
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.376);
   color: white;
-  padding: 2em;
 }
 
 .weather-card_temperature {
@@ -86,8 +87,32 @@ figcaption {
 }
 
 .weather-card_figure {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card_figure>img {
+  width: 200px;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  body {
+    font-size: 16px;
+  }
 }
 
 /* || small tablet styles */
