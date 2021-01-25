@@ -75,6 +75,7 @@ figcaption {
   background-color: var(--dim-gray);
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.376);
   color: white;
+  padding: 2em;
 }
 
 .weather-card_temperature {
