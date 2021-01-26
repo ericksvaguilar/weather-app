@@ -6,7 +6,7 @@
 This project is a simple weather app. The user can search any location and get the forecast
 
 ## Live Preview
-
+https://weather-app.erickaguilar.com.br/
 
 ## Install
 1. Download repository
