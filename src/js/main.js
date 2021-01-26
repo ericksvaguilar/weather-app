@@ -1,11 +1,12 @@
+import WEATHER_API_KEY from './apikey.js';
 const formElement = document.querySelector('[data-js="form"]')
 const weatherCard = document.querySelector('[data-js="weather-card"]')
 
-const endpoint = cityname => `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=aca1524dfb7f6fe280b35f0def53192d`;
+const url = cityname => `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=${WEATHER_API_KEY}`;
 
 const getAPIData = async (cityname) => {
   try {
-    const response = await fetch(endpoint(cityname))
+    const response = await fetch(url(cityname))
     return response.json()
   } catch (err) {
     console.error(err)
