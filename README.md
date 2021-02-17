@@ -20,7 +20,7 @@ https://weather-app.erickaguilar.com.br/
 
 ### Usage
 
-1. Open `index.html` with Liver Server in VSCode
+1. Open `index.html` with Live Server in VSCode
 
 ## License
 
