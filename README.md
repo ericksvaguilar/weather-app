@@ -8,8 +8,14 @@ This project is a simple weather app. The user can search any location and get t
 ## Live Preview
 https://weather-app.erickaguilar.com.br/
 
-## Install
-1. Download repository
+## Run the project
 
-## Usage
-1. Open index.html
+### Requirements
+* VSCode
+* Live Server (VSCode Extension)
+
+### Install
+1. Download or clone repository
+
+### Usage
+1. Open index.html with Liver Server in VSCode
