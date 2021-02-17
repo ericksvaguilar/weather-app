@@ -15,7 +15,13 @@ https://weather-app.erickaguilar.com.br/
 * Live Server (VSCode Extension)
 
 ### Install
+
 1. Download or clone repository
 
 ### Usage
-1. Open `index.html` with Liver Server in VSCode
+
+1. Open `index.html` with Live Server in VSCode
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
