@@ -16,7 +16,6 @@ const getAPIData = async cityname => {
 }
 
 const insertDataIntoHTML = json => {
-  console.log(json)
   let temperature = Math.floor(json.main.temp)
   let tempMax = Math.floor(json.main.temp_max)
   let tempMin = Math.floor(json.main.temp_min)
