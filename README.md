@@ -25,3 +25,7 @@ https://weather-app.erickaguilar.com.br/
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgements
+
+* [OpenWeather API](https://openweathermap.org/api)
